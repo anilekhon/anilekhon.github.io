@@ -1,8 +1,8 @@
 # Site settings
 title:          "'অনি'লেখা"
 description:    "ভাবনার আঁকিবুঁকি"
-baseurl:        "/tale"
-# url:            "https://chesterhow.github.io"
+baseurl:        "/"
+url:            "https://anilekhon.github.io"
 
 # Google Analytics
 # google_analytics: UA—XXXXXXXX-X
