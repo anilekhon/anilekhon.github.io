@@ -30,9 +30,14 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-theme:          tale
-permalink:      /:year-:month-:day/:title
-paginate:       5
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
