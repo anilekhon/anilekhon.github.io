@@ -2,7 +2,8 @@
 layout: post
 title: "Example Content"
 author: "Chester"
-tags: Example
+tags: 
+hidden: true
 excerpt_separator: <!--more-->
 ---
 

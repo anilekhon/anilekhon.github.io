@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-    <span>Written by</span>
+    <span>কলমে</span>
     {% if page.author %}
         {{ page.author }}
     {% else %}
@@ -21,7 +21,14 @@ layout: default
   <div class="post-line"></div>
 
   {{ content }}
+
+  <div align="right">
+    <b>পত্র:</b> <a href="url">aniketpramanick26@outlook.com</a>
+  </div>
+
 </div>
+
+
 
 {% if page.comments %}
   {% include disqus_comments.html %}
@@ -31,9 +38,11 @@ layout: default
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
   {% endif %}
+
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
   <a href="#" class="top">Top</a>
 </div>
+

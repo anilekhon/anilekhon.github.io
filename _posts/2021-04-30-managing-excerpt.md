@@ -2,7 +2,8 @@
 layout: post
 title: "Managing Excerpt"
 author: "Chester"
-tags: Tutorial
+tags: 
+hidden: true
 excerpt_separator: <!--more-->
 ---
 
